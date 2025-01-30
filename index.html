@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A news homepage">
+    <meta name="keywords" content="news, homepage,newspaper">
+    <meta name="author" content="L-ux-es">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | News homepage</title>
+</head>
+<body>
+<header>
+    <img src="assets/images/logo.svg" alt="Logo" aria-label="Logo">
+    <input type="checkbox" id="check">
+    <label for="check" class="show-menu" aria-label="Open menu"><img src="assets/images/icon-menu.svg" alt="&#8801"></label>
+    <nav class="menu" role="navigation" aria-label="menu">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+        <label for="check" class="hide-menu" aria-label="Close menu"><img src="assets/images/icon-menu-close.svg" alt="&#215"></label>
+    </nav>
+</header>
+<main>
+    <div id="firstContainer">
+        <div class="newsCover">
+            <div class="imageContainer">
+                <img src="assets/images/image-web-3-desktop.jpg" srcset="assets/images/image-web-3-mobile.jpg 600w,
+                assets/images/image-web-3-desktop.jpg 1460w"
+                     sizes="(max-width: 800px) 100vw" alt="Background" loading="lazy">
+            </div>
+            <div class="newsTitleAndDescription">
+                <h1>The Bright Future of Web 3.0?</h1>
+                <div>
+                    <p>We dive into the next evolution of the web that claims to put the power of the platforms back
+                        into
+                        the hands
+                        of the people.But is it really fulfilling its promise?</p>
+                    <a id="readMore" href="#">Read more</a></div>
+            </div>
+        </div>
+        <div id="newContainer">
+            <h2 id="newsTitle">New</h2>
+            <div class="news">
+                <a href="#"><h3 class="titleOfNews">Hydrogen VS Electric Cars</h3></a>
+                <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <hr>
+            <div class="news">
+                <a href="#"><h3 class="titleOfNews">The Downsides of AI Artistry</h3></a>
+                <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <hr>
+            <div class="news">
+                <a href="#"><h3 class="titleOfNews">Is VC Funding Drying Up?</h3></a>
+                <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p></div>
+        </div>
+    </div>
+    <div id="orderedNewsList" class="flex-row">
+        <div class="orderedNews">
+            <img class="imagesNews" src="assets/images/image-retro-pcs.jpg" alt="Retro Pcs">
+            <div>
+                <h3>01</h3>
+                <h4>Reviving Retro PCs</h4>
+                <p>What happens when old PCs are given modern upgrades?</p></div>
+        </div>
+        <div class="orderedNews">
+            <img class="imagesNews" src="assets/images/image-top-laptops.jpg" alt="Top Laptops">
+            <div>
+                <h3>02</h3>
+                <h4>Top 10 Laptops of 2022</h4>
+                <p>Our best picks for various needs and budgets.</p></div>
+        </div>
+        <div class="orderedNews">
+            <img class="imagesNews" src="assets/images/image-gaming-growth.jpg" alt="Gaming growth">
+            <div>
+                <h3>03</h3>
+                <h4>The Growth of Gaming</h4>
+                <p>How the pandemic has sparked fresh opportunities.</p></div>
+        </div>
+    </div>
+</main>
+<div class="attribution" role="doc-credit">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Leo Sánchez</a>.
+</div>
+</body>
+</html>
