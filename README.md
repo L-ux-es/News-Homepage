@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Frontend Mentor | News Homepage (desktop)](Frontend_Mentor_News_Homepage_desktop.png)
+![Frontend Mentor | News Homepage (desktop)](Frontend_Mentor_News_homepage_desktop.png)
 ###### Desktop view
 
-![Frontend Mentor | News Homepage (mobile)](Frontend_Mentor_News_Homepage_mobile.png)
+![Frontend Mentor | News Homepage (mobile)](Frontend_Mentor_News_homepage_mobile.png)
 ###### Mobile view
 
-![Frontend Mentor | News Homepage (mobile)](Frontend_Mentor_News_Homepage_menu_mobile.png)
+![Frontend Mentor | News Homepage (mobile)](Frontend_Mentor_News_homepage_menu_mobile.png)
 ###### Mobile view (menu)
 
 ### Links
